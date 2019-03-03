@@ -12,6 +12,6 @@ class Song
     @@genres << genre
   end
   self.count
-    @@count.length
+    @@count.size
   end
 end
