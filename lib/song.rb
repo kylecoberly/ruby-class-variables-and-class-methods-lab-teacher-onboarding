@@ -26,5 +26,6 @@ class Song
       count[genre] ||= 0
       count[genre] += 1
     }
+    count
   end
 end
